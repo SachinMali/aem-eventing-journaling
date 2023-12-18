@@ -81,7 +81,7 @@ const AdobeDeveloperConsoleProjectDetailsForm = (props) => {
   return (
     <Flex direction="column" paddingTop={"size-10"} padding={"size-10"}>
       <Heading level={4}>
-        Please provide your Adobe Developer Console Project details to fetch your first batch of events from the journal, <a href="https://developer.adobe.com/events/docs/guides/api/journaling_api/#fetching-your-first-batch-of-events-from-the-journal" target="_blank">more info</a>:
+        Please provide your Adobe Developer Console Project details to fetch your first batch of AEM Events from the journal, <a href="https://developer.adobe.com/events/docs/guides/api/journaling_api/#fetching-your-first-batch-of-events-from-the-journal" target="_blank">more info</a>. Once loaded, you can view the complete event payload by double-clicking on an AEM event row.
       </Heading>
 
       {/* Error handling when loading journal data */}

@@ -1,6 +1,6 @@
 # AEM Eventing - Journaling - Adobe I/O Events
 
-Review your AEM Events Journal data by providing Adobe Developer Console Project details. By double-clicking on an AEM event row, you can view the complete event payload.
+Review your [first batch of AEM Events](https://developer.adobe.com/events/docs/guides/api/journaling_api/#fetching-your-first-batch-of-events-from-the-journal) from the journal by providing Adobe Developer Console Project details. Once loaded, you can view the complete event payload by double-clicking on an AEM event row.
 
 ## How to use
 
