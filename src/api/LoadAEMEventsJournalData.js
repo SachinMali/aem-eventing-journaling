@@ -6,7 +6,7 @@ export default async function loadAEMEventsJournalData(
 ) {
   // Fetching AEM Eventing - Journaling data
   try {
-    const response = await fetch(journalingAPIEndpoint, {
+    const response = await fetch(`${journalingAPIEndpoint}?limit=20`, {
       method: "GET",
       headers: {
         Authorization: `Bearer ${accessToken}`,
