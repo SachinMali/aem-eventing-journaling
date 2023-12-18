@@ -41,6 +41,9 @@ const AdobeDeveloperConsoleProjectDetailsForm = (props) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    // Set state
+    props.setAEMEvents(null);
+
     // Form validation
     if (
       !formData.imsOrgID ||
@@ -62,7 +65,7 @@ const AdobeDeveloperConsoleProjectDetailsForm = (props) => {
         formData.accessToken
       );
 
-      //console.log("AEM Events:", data);
+      console.log("AEM Events:", data);
 
       // Set state
       props.setAEMEvents(data);
@@ -110,6 +113,7 @@ const AdobeDeveloperConsoleProjectDetailsForm = (props) => {
             type="password"
             isRequired
             onChange={(e) => {
+              setError(null);
               setFormData({ ...formData, imsOrgID: e });
             }}
           />
@@ -120,6 +124,7 @@ const AdobeDeveloperConsoleProjectDetailsForm = (props) => {
             type="password"
             isRequired
             onChange={(e) => {
+              setError(null);
               setFormData({ ...formData, clientID: e });
             }}
           />
@@ -131,6 +136,7 @@ const AdobeDeveloperConsoleProjectDetailsForm = (props) => {
             width="size-6000"
             isRequired
             onChange={(e) => {
+              setError(null);
               setFormData({ ...formData, journalingAPIEndpoint: e });
             }}
           />
@@ -142,6 +148,7 @@ const AdobeDeveloperConsoleProjectDetailsForm = (props) => {
           type="text"
           isRequired
           onChange={(e) => {
+            setError(null);
             setFormData({ ...formData, accessToken: e });
           }}
         />

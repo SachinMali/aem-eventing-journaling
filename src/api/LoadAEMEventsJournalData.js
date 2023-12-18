@@ -15,8 +15,8 @@ export default async function loadAEMEventsJournalData(
       },
     });
 
-    // Checking for errors but ignoring 204-Preflight response
-    if (!response.status === 200 || !response.status === 204) {
+    // Checking for errors
+    if (response.status !== 200) {
       throw new Error(
         `Failed to obtain AEM Eventing - Journaling data: ${response.status} - ${response.statusText}`
       );

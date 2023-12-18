@@ -33,7 +33,7 @@ const AEMEventsJournalDataTable = ({ events }) => {
   ];
 
   // Rows for the table derived from the events prop
-  const rows = events.map((event, index) => ({
+  const rows = (events || []).map((event, index) => ({
     id: index++,
     "aem-env": event.event.source.split(":")[1].split("@")[0],
     time: event.event.time,
