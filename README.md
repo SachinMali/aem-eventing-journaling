@@ -1,8 +1,22 @@
-# Getting Started with Create React App
+# AEM Eventing - Journaling - Adobe I/O Events
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Review your AEM Events Journal data by providing Adobe Developer Console Project details. By double-clicking on an AEM event row, you can view the complete event payload.
 
-## Available Scripts
+## How to use
+
+- Access this AEM Eventing - Journaling - Adobe I/O Events via the Glitch URL
+
+- Enter your Adobe Developer Console Project details in the form, then click on the **Submit** button to retrieve the AEM Events Journal data.
+
+- Upon success, the table component displays the AEM Events Journal data, double-click on a row to view the complete event payload.
+
+- In case of an error, the error message is displayed in the form, however, review the browser console for more details.
+
+## Local Development
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses [Adobe React Spectrum](https://react-spectrum.adobe.com/react-spectrum/index.html) for UI components.
+
+### Available Scripts
 
 In the project directory, you can run:
 
