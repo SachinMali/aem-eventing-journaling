@@ -6,11 +6,16 @@ Review your [first batch of AEM Events](https://developer.adobe.com/events/docs/
 
 - Access this AEM Eventing - Journaling - Adobe I/O Events via the Glitch URL
 
+    ![Glitch URL](./images/glitch-url.png)
+
 - Enter your Adobe Developer Console Project details in the form, then click on the **Submit** button to retrieve the AEM Events Journal data.
+    ![ADC Project Details Form](./images/adc-form.png)
 
 - Upon success, the table component displays the AEM Events Journal data, double-click on a row to view the complete event payload.
+    ![AEM Events Journal Data](./images/aem-events-journal-data.png)
 
 - In case of an error, the error message is displayed in the form, however, review the browser console for more details.
+    ![Error Message](./images/error-message.png)
 
 ## Local Development
 
