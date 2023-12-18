@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable no-undef */
 /* eslint-disable react/react-in-jsx-scope */
 
@@ -80,8 +81,7 @@ const AdobeDeveloperConsoleProjectDetailsForm = (props) => {
   return (
     <Flex direction="column" paddingTop={"size-10"} padding={"size-10"}>
       <Heading level={4}>
-        Please provide your Adobe Developer Console Project details to load the
-        AEM Events Journal data:
+        Please provide your Adobe Developer Console Project details to fetch your first batch of events from the journal, <a href="https://developer.adobe.com/events/docs/guides/api/journaling_api/#fetching-your-first-batch-of-events-from-the-journal" target="_blank">more info</a>:
       </Heading>
 
       {/* Error handling when loading journal data */}
@@ -97,7 +97,7 @@ const AdobeDeveloperConsoleProjectDetailsForm = (props) => {
         </InlineAlert>
       )}
 
-      <StatusLight variant="info">
+      <StatusLight variant="seafoam">
         This code does not log or store any of the information provided below.
         However, please exercise caution and avoid entering production or other
         important details here.

@@ -31,7 +31,7 @@ function App() {
         paddingTop={"size-20"}
         padding={"size-20"}
       >
-        <Heading level={1}>AEM Eventing - Journaling</Heading>
+        <Heading level={1}>AEM Eventing - Review your AEM Events Journal</Heading>
         
         {/* Developer Console Project Details Form */}
         <AdobeDeveloperConsoleProjectDetailsForm setAEMEvents={setAEMEvents} />
